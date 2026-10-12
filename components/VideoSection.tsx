@@ -36,7 +36,7 @@ export default function VideoSection() {
           <video
             ref={videoRef}
             src="/assets/spa_sanctuary_video.mp4"
-            poster="/images/gallery/spa_treatment_room_1790677609379.jpg"
+            poster="/images/gallery/amazing-wellness-spa-vip-couple-massage-suite.webp"
             autoPlay
             loop
             muted={isMuted}
