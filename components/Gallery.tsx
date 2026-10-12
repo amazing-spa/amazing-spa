@@ -257,7 +257,7 @@ export default function Gallery() {
           className="fixed inset-0 z-[9999] bg-black/85 backdrop-blur-xl flex items-center justify-center px-2 sm:px-6 pt-[78px] sm:pt-20 pb-[76px] sm:pb-12 overflow-hidden select-none"
           onClick={closeLightbox}
         >
-          {/* Previous Button */}
+          {/* Previous Button helllo */}
           <button
             type="button"
             onClick={(e) => {
