@@ -73,12 +73,12 @@ export const defaultWhyUsData: WhyChooseUsConfig = {
   ],
   image1: {
     url: "/images/why_us_massage_editorial.jpg",
-    alt: "Professional spa therapist performing a soothing body treatment in a peaceful natural environment",
+    alt: "Professional spa therapist performing a soothing body treatment at Amazing Spa in a peaceful natural environment",
     badgeText: ["Breathe", "Relax", "Renew"],
   },
   image2: {
     url: "/images/why_us_still_life_editorial.jpg",
-    alt: "Luxury spa still life with organic towels, river stones, essential oil bottle and glowing candle",
+    alt: "Luxury spa still life with organic towels, river stones, and essential oils at Amazing Spa",
     decorativePhrase: {
       line1: "Because",
       line2: "you deserve",

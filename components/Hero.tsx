@@ -5,9 +5,9 @@ import { Phone, MessageCircle, ChevronDown, Clock, CheckCircle2, MapPin } from "
 import Image from "next/image";
 import { scrollToSection } from "@/lib/utils";
 
-const PHONE = "+918797191340";
-const WA_NUMBER = "918797191340";
-const WA_TEXT = encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Wellness Spa.");
+const PHONE = "+917982909680";
+const WA_NUMBER = "917982909680";
+const WA_TEXT = encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Spa.");
 
 export default function Hero() {
   return (
@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="absolute inset-0 opacity-55">
         <Image
           src="/images/massage1.jpg"
-          alt="Amazing Wellness Spa in Lajpat Nagar, New Delhi"
+          alt="Amazing Spa in Lajpat Nagar, New Delhi"
           fill
           priority
           sizes="100vw"
@@ -51,8 +51,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] font-medium tracking-tight text-white drop-shadow-lg"
         >
-          Spa & Massage in{" "}
-          <span className="italic text-gold font-normal drop-shadow-md">Lajpat Nagar, Delhi</span>
+          Amazing Spa in{" "}
+          <span className="italic text-gold font-normal drop-shadow-md">Lajpat Nagar, New Delhi</span>
         </motion.h1>
 
         {/* Description Paragraph */}
@@ -62,7 +62,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.35 }}
           className="mt-4 sm:mt-6 max-w-2xl mx-auto text-white/95 text-sm sm:text-base md:text-lg leading-relaxed font-lato px-2 drop-shadow-sm"
         >
-          Relax, rejuvenate, and enjoy a premium wellness experience at Amazing Wellness Spa. Explore our relaxing massage and spa services in Lajpat Nagar, New Delhi, and take a well-deserved break from your busy routine.
+          Relax, rejuvenate, and enjoy a premium wellness experience at Amazing Spa. Explore our relaxing massage and spa services in Lajpat Nagar, New Delhi, and take a well-deserved break from your busy routine.
         </motion.p>
 
         {/* Trust Highlights */}

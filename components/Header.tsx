@@ -6,8 +6,8 @@ import { Phone, Menu, X } from "lucide-react";
 import Image from "next/image";
 import { scrollToSection } from "@/lib/utils";
 
-const PHONE = "+918797191340";
-const PHONE_DISPLAY = "+91 8797191340";
+const PHONE = "+917982909680";
+const PHONE_DISPLAY = "+91 7982909680";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -97,7 +97,7 @@ export default function Header() {
           >
             <Image
               src="/images/logo.png"
-              alt="Amazing Wellness Spa logo"
+              alt="Amazing Spa logo"
               width={42}
               height={42}
               className="h-8 w-8 sm:h-10 sm:w-10 object-contain shrink-0 drop-shadow-sm"
@@ -111,9 +111,9 @@ export default function Header() {
               <div className="font-poiret text-[12px] xs:text-[13px] sm:text-base md:text-[17px] font-bold tracking-[0.2em] sm:tracking-[0.26em] uppercase text-[#f0d489] drop-shadow-xs">
                 AMAZING
               </div>
-              {/* Row 2: WELLNESS SPA (Josefin Sans Light) */}
+              {/* Row 2: SPA (Josefin Sans Light) */}
               <div className="font-josefin text-[7.5px] xs:text-[8.5px] sm:text-[9.5px] font-light tracking-[0.24em] sm:tracking-[0.32em] uppercase mt-0.5 text-white/95">
-                WELLNESS SPA
+                SPA
               </div>
             </div>
           </a>

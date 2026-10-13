@@ -5,11 +5,12 @@ import Image from "next/image";
 import { scrollToSection } from "@/lib/utils";
 import { SERVICES } from "./Services";
 
-const PHONE = "+918797191340";
-const PHONE_DISPLAY = "+91 8797191340";
-const EMAIL = "amazingwellnessspa.info@gmail.com";
-const WA = "918797191340";
-const MAPS_LINK = "https://maps.google.com/?q=72/1,+2nd+Floor,+Near+A+Block,+Muthoot+Finance,+Near+Samara+Honda,+Lajpat+Nagar+2,+New+Delhi,+Delhi+110024";
+const PHONE = "+917982909680";
+const PHONE_DISPLAY = "+91 7982909680";
+const EMAIL = "amazingspainfo9@gmail.com";
+const WA = "917982909680";
+const MAPS_LINK =
+  "https://www.google.com/maps/place/Amazing+Spa+%7C+Massage+spa+in+lajpat+nagar/@28.5727387,77.2407985,21z/data=!4m6!3m5!1s0x390ce383d8c8f46f:0xc13ee65b5010ca0c!8m2!3d28.5727999!4d77.2408173!16s%2Fg%2F11zy5mj199?entry=ttu";
 
 export default function Footer() {
   return (
@@ -21,14 +22,14 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-1">
           <div className="flex items-center gap-3">
-            <Image src="/images/logo.png" alt="Amazing Wellness Spa" width={48} height={48} className="h-12 w-12 object-contain" />
+            <Image src="/images/logo.png" alt="Amazing Spa" width={48} height={48} className="h-12 w-12 object-contain" />
             <div className="font-serif leading-tight">
-              <div className="text-sm tracking-[0.2em]">AMAZING WELLNESS</div>
+              <div className="text-sm tracking-[0.2em]">AMAZING</div>
               <div className="text-[10px] tracking-[0.3em] opacity-70">SPA</div>
             </div>
           </div>
           <p className="mt-5 text-sm text-white/60 leading-relaxed">
-            A peaceful escape for massage and wellness treatments in the heart of Lajpat Nagar 2, New Delhi.
+            A peaceful escape for massage and wellness treatments in the heart of Lajpat Nagar, New Delhi.
           </p>
         </div>
         <div>
@@ -64,8 +65,16 @@ export default function Footer() {
         <div>
           <h4 className="font-serif text-gold mb-4">Contact & Location</h4>
           <ul className="space-y-3 text-sm text-white/70">
-            <li className="flex gap-2">
-              <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" /> 72/1, 2nd Floor, Near A Block, Muthoot Finance, Near Samara Honda, Lajpat Nagar 2, New Delhi, Delhi - 110024
+            <li>
+              <a
+                href={MAPS_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 hover:text-gold transition-colors"
+              >
+                <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                <span>34, Block A Lajpat Nagar 1 Rd, Block A, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024</span>
+              </a>
             </li>
             <li className="flex gap-2">
               <UserCheck className="w-4 h-4 text-gold shrink-0 mt-0.5" /> Contact: Sunny
@@ -98,7 +107,7 @@ export default function Footer() {
           </ul>
           <div className="mt-5 flex flex-wrap gap-2">
             <a
-              href={`https://wa.me/${WA}?text=${encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Wellness Spa.")}`}
+              href={`https://wa.me/${WA}?text=${encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Spa.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-gold text-espresso text-xs font-medium"
@@ -117,7 +126,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="relative mt-12 pt-6 border-t border-white/10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/50">
-        <span>© 2026 Amazing Wellness Spa. All rights reserved.</span>
+        <span>© 2026 Amazing Spa. All rights reserved.</span>
         <span className="italic">Prices and availability are subject to confirmation with Sunny.</span>
       </div>
     </footer>

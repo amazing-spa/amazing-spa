@@ -216,7 +216,13 @@ export default function Services({ onBook }: { onBook: (name: string) => void })
         <div className="w-full flex flex-col">
           {DETAILED_SERVICES.map((ds, idx) => (
             <section className="rsec" id={ds.id} data-idx={idx} key={ds.id}>
-              <img className="rsec__img" src={ds.img} alt={ds.name} />
+              <img
+                className="rsec__img"
+                src={ds.img}
+                alt={`${ds.name} treatment at Amazing Spa Lajpat Nagar`}
+                loading="lazy"
+                decoding="async"
+              />
               <div className="rsec__veil"></div>
               <span className="rsec__big" aria-hidden="true">{ds.idx}</span>
               <div className="shell rsec__in">
@@ -242,7 +248,7 @@ export default function Services({ onBook }: { onBook: (name: string) => void })
                   <button onClick={() => onBook(ds.name)} className="btn btn--solid">
                     BOOK NOW
                   </button>
-                  <a className="btn btn--ghost" href="tel:+918797191340">
+                  <a className="btn btn--ghost" href="tel:+917982909680">
                     CALL NOW
                   </a>
                 </div>

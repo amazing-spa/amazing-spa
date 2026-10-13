@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
 import { scrollToSection } from "@/lib/utils";
 
-const PHONE = "+918797191340";
+const PHONE = "+917982909680";
 
 function FadeUp({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   return (
@@ -32,7 +32,7 @@ export default function CTABanner() {
             Ready for Some Time to <span className="italic text-gold">Relax?</span>
           </h2>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
-            Choose your preferred treatment and connect with Sunny at Amazing Wellness Spa to confirm your appointment.
+            Choose your preferred treatment and connect with Sunny at Amazing Spa to confirm your appointment.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <button
@@ -45,7 +45,7 @@ export default function CTABanner() {
               href={`tel:${PHONE}`}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-gold/40 text-white hover:bg-white/10 transition-all"
             >
-              <Phone className="w-4 h-4" /> Call Now (+91 8797191340)
+              <Phone className="w-4 h-4" /> Call Now (+91 7982909680)
             </a>
           </div>
         </FadeUp>

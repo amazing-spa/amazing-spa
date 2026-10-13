@@ -3,11 +3,11 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const PHONE = "+918797191340";
-const PHONE_RAW = "918797191340";
-const EMAIL = "amazingwellnessspa.info@gmail.com";
+const PHONE = "+917982909680";
+const PHONE_RAW = "917982909680";
+const EMAIL = "amazingspainfo9@gmail.com";
 const WA_TEXT = encodeURIComponent(
-  "Hello Sunny, I would like to know more about Amazing Wellness Spa services."
+  "Hello Sunny, I would like to know more about Amazing Spa services."
 );
 
 export default function FloatingWA() {

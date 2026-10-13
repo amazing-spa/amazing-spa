@@ -6,7 +6,7 @@ import { MessageCircle, Clock } from "lucide-react";
 import Image from "next/image";
 import { SERVICES } from "./Services";
 
-const WA = "918797191340";
+const WA = "917982909680";
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -63,7 +63,7 @@ export default function BookingForm({
     setErrors(err);
     if (Object.keys(err).length) return;
 
-    const msg = `Hello Sunny (Amazing Wellness Spa),\n\nI would like to book an appointment.\n\nName: ${form.name}\nPhone: ${form.phone}\nSelected Category/Service: ${selectedService || "Not selected"}\nPreferred Date: ${form.date || "Not specified"}\nMessage: ${form.message || "None"}\n\nPlease confirm availability.\n\nThank you.`;
+    const msg = `Hello Sunny (Amazing Spa),\n\nI would like to book an appointment.\n\nName: ${form.name}\nPhone: ${form.phone}\nSelected Category/Service: ${selectedService || "Not selected"}\nPreferred Date: ${form.date || "Not specified"}\nMessage: ${form.message || "None"}\n\nPlease confirm availability.\n\nThank you.`;
     window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, "_blank");
   };
 

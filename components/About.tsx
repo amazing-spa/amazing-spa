@@ -49,7 +49,7 @@ export default function About() {
         {/* Body Paragraphs */}
         <div className="mt-8 max-w-[470px] space-y-5 text-[15px] leading-[1.65] text-[#34494b] sm:text-base font-lato">
           <p>
-            At Amazing Wellness Spa, we believe that true beauty comes from within. Our journey began with a simple idea — to create a space where people can relax, recharge and reconnect with themselves.
+            At Amazing Spa, we believe that true beauty comes from within. Our journey began with a simple idea — to create a space where people can relax, recharge and reconnect with themselves.
           </p>
           <p>
             With a team of skilled therapists and a calm, luxurious environment, we offer personalized spa treatments designed to help you look good, feel better and live healthier.
@@ -67,7 +67,7 @@ export default function About() {
         <div className="relative group w-full h-[320px] xs:h-[360px] sm:h-[420px] lg:h-[480px] xl:h-[530px] overflow-hidden rounded-tr-[18%] rounded-bl-[18%] shadow-2xl cursor-pointer">
           <Image
             src="/images/about_massage_therapist.jpg"
-            alt="Luxury spa sanctuary treatment room"
+            alt="Luxury spa sanctuary treatment room at Amazing Spa Lajpat Nagar"
             fill
             priority
             sizes="(max-width: 1024px) 92vw, 55vw"

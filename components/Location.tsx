@@ -3,13 +3,14 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, Navigation, MessageCircle, UserCheck } from "lucide-react";
 
-const PHONE = "+918797191340";
-const PHONE_DISPLAY = "+91 8797191340";
-const EMAIL = "amazingwellnessspa.info@gmail.com";
-const WA = "918797191340";
-const MAPS_LINK = "https://maps.google.com/?q=72/1,+2nd+Floor,+Near+A+Block,+Muthoot+Finance,+Near+Samara+Honda,+Lajpat+Nagar+2,+New+Delhi,+Delhi+110024";
+const PHONE = "+917982909680";
+const PHONE_DISPLAY = "+91 7982909680";
+const EMAIL = "amazingspainfo9@gmail.com";
+const WA = "917982909680";
+const MAPS_LINK =
+  "https://www.google.com/maps/place/Amazing+Spa+%7C+Massage+spa+in+lajpat+nagar/@28.5727387,77.2407985,21z/data=!4m6!3m5!1s0x390ce383d8c8f46f:0xc13ee65b5010ca0c!8m2!3d28.5727999!4d77.2408173!16s%2Fg%2F11zy5mj199?entry=ttu";
 const MAPS_EMBED =
-  "https://www.google.com/maps?q=72/1,+2nd+Floor,+Near+A+Block,+Muthoot+Finance,+Near+Samara+Honda,+Lajpat+Nagar+2,+New+Delhi,+Delhi+110024&output=embed";
+  "https://www.google.com/maps?q=28.5727999,77.2408173&hl=en&z=19&output=embed";
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -78,30 +79,39 @@ export default function Location() {
           <FadeUp>
             <SectionLabel>Visit Us</SectionLabel>
             <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl text-[#172A25]">
-              Find Us in <span className="italic text-[#4D683F]">Lajpat Nagar 2</span>
+              Find Us in <span className="italic text-[#4D683F]">Lajpat Nagar</span>
             </h2>
           </FadeUp>
         </div>
         <div className="mt-14 grid lg:grid-cols-2 gap-8 items-stretch">
           <FadeUp>
-            <div className="rounded-2xl overflow-hidden shadow-lg h-full min-h-[360px]">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg h-full min-h-[360px] group">
               <iframe
                 src={MAPS_EMBED}
-                title="Amazing Wellness Spa location"
+                title="Amazing Spa location"
                 className="w-full h-full min-h-[360px] border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
+              <a
+                href={MAPS_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-4 left-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/95 text-[#172A25] text-xs font-semibold shadow-md hover:bg-[#172A25] hover:text-white transition-all backdrop-blur-xs"
+              >
+                <Navigation className="w-3.5 h-3.5 text-[#d8ab5e]" /> Open in Google Maps
+              </a>
             </div>
           </FadeUp>
           <FadeUp delay={0.1}>
             <div className="h-full bg-white rounded-3xl p-8 shadow-lg flex flex-col">
-              <h3 className="font-serif text-2xl sm:text-3xl text-[#172A25]">Amazing Wellness Spa</h3>
+              <h3 className="font-serif text-2xl sm:text-3xl text-[#172A25]">Amazing Spa</h3>
               <div className="mt-6 space-y-3.5">
                 <InfoRow
                   icon={MapPin}
                   title="Address"
-                  value="72/1, 2nd Floor, Near A Block, Muthoot Finance, Near Samara Honda, Lajpat Nagar 2, New Delhi, Delhi - 110024"
+                  value="34, Block A Lajpat Nagar 1 Rd, Block A, Lajpat Nagar I, Lajpat Nagar, New Delhi, Delhi 110024"
+                  href={MAPS_LINK}
                 />
                 <InfoRow icon={UserCheck} title="Contact Person" value="Sunny" />
                 <InfoRow icon={Phone} title="Phone / WhatsApp" value={PHONE_DISPLAY} href={`tel:${PHONE}`} />
@@ -124,7 +134,7 @@ export default function Location() {
                   <Phone className="w-4 h-4 text-[#4D683F]" /> Call Now
                 </a>
                 <a
-                  href={`https://wa.me/${WA}?text=${encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Wellness Spa.")}`}
+                  href={`https://wa.me/${WA}?text=${encodeURIComponent("Hello Sunny, I would like to book a session at Amazing Spa.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-full bg-gradient-gold text-espresso text-sm font-semibold hover:scale-[1.02] transition-transform shadow-sm"

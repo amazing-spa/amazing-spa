@@ -5,7 +5,8 @@ import { motion, useMotionValue, animate, PanInfo } from "framer-motion";
 import { Star, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
-const MAPS_LINK = "https://maps.app.goo.gl/UMuATrxaNd9PY3Si7";
+const MAPS_LINK =
+  "https://www.google.com/maps/place/Amazing+Spa+%7C+Massage+spa+in+lajpat+nagar/@28.5727387,77.2407985,21z/data=!4m6!3m5!1s0x390ce383d8c8f46f:0xc13ee65b5010ca0c!8m2!3d28.5727999!4d77.2408173!16s%2Fg%2F11zy5mj199?entry=ttu";
 
 const reviews = [
   {
@@ -29,7 +30,7 @@ const reviews = [
     name: "Rahul Verma",
     role: "Verified Guest, South Delhi",
     rating: 5,
-    text: "Clean and comfortable place with soothing treatments. Great experience in Lajpat Nagar 2 — highly recommend Amazing Wellness Spa.",
+    text: "Clean and comfortable place with soothing treatments. Great experience in Lajpat Nagar 1 — highly recommend Amazing Wellness Spa.",
     avatar: "/images/avatar3.jpg",
   },
   {
@@ -61,7 +62,7 @@ const reviews = [
     name: "Sneha Gupta",
     role: "Local Resident",
     rating: 5,
-    text: "I come here twice a month for aromatherapy sessions. Truly a hidden gem in Lajpat Nagar 2 with top notch therapists.",
+    text: "I come here twice a month for aromatherapy sessions. Truly a hidden gem in Lajpat Nagar 1 with top notch therapists.",
     avatar: "/images/avatar4.jpg",
   },
 ];

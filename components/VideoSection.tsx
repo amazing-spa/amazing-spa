@@ -37,6 +37,8 @@ export default function VideoSection() {
             ref={videoRef}
             src="/assets/spa_sanctuary_video.mp4"
             poster="/images/gallery/amazing-wellness-spa-vip-couple-massage-suite.webp"
+            title="Amazing Spa Sanctuary Experience Video"
+            aria-label="Amazing Spa sanctuary relaxation experience walkthrough"
             autoPlay
             loop
             muted={isMuted}

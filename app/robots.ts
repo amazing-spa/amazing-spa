@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://wellnesswavespa.com/sitemap.xml",
+    sitemap: "https://amazingspa.site/sitemap.xml",
   };
 }

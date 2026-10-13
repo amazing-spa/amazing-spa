@@ -38,7 +38,7 @@ export default function HowItWorks() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/how_it_works_bg.png"
-          alt="Spa Journey Background Atmosphere"
+          alt="Amazing Spa Journey Background Atmosphere"
           fill
           priority
           sizes="100vw"

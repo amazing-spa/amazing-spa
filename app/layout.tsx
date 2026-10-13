@@ -130,46 +130,64 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wellnesswavespa.com"),
-  title: "Amazing Wellness Spa | Premier Massage & Wellness Spa in Lajpat Nagar 2, New Delhi",
+  metadataBase: new URL("https://amazingspa.site"),
+  title: {
+    default: "Amazing Spa in Lajpat Nagar, Delhi | Massage & Wellness",
+    template: "%s | Amazing Spa",
+  },
   description:
-    "Discover luxury massage & spa treatments at Amazing Wellness Spa, 72/1, 2nd Floor, Near A Block, Muthoot Finance, Near Samara Honda, Lajpat Nagar 2, New Delhi, Delhi - 110024. Open 24 hours. Online booking hours: 11:00 AM – 11:00 PM. Contact Sunny on WhatsApp or call +91 8797191340.",
+    "Discover Amazing Spa in Lajpat Nagar, New Delhi, for relaxing massage and wellness services. Explore available treatments, view service details, and contact us to book your visit.",
   keywords: [
-    "Amazing Wellness Spa",
-    "Spa in Lajpat Nagar 2",
-    "Massage Spa New Delhi",
-    "Full Body Massage",
-    "Deep Tissue Massage",
-    "Thai Balm Massage",
-    "Aroma Massage",
-    "24 Hours Spa Lajpat Nagar",
-    "Sunny Amazing Wellness Spa",
+    "Amazing Spa",
+    "spa in Lajpat Nagar",
+    "spa in Lajpat Nagar Delhi",
+    "massage spa in Lajpat Nagar",
+    "spa in South Delhi",
+    "massage centre in Lajpat Nagar",
+    "wellness spa in New Delhi",
+    "body massage in Lajpat Nagar",
+    "relaxation massage in Lajpat Nagar",
+    "full body massage in Lajpat Nagar",
+    "deep tissue massage in Lajpat Nagar",
+    "massage services in South Delhi",
   ],
   alternates: {
-    canonical: "/",
+    canonical: "https://amazingspa.site",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   openGraph: {
-    title: "Amazing Wellness Spa | Luxury Spa in Lajpat Nagar 2, New Delhi",
+    title: "Amazing Spa in Lajpat Nagar, Delhi | Massage & Wellness",
     description:
-      "Premium massage and wellness spa in Lajpat Nagar 2. Open 24 hours (Online hours: 11:00 AM – 11:00 PM). Contact Sunny on WhatsApp or call +91 8797191340.",
+      "Discover Amazing Spa in Lajpat Nagar, New Delhi, for relaxing massage and wellness services. Explore available treatments, view service details, and contact us to book your visit.",
     type: "website",
-    url: "/",
-    siteName: "Amazing Wellness Spa",
+    url: "https://amazingspa.site",
+    siteName: "Amazing Spa",
+    locale: "en_IN",
     images: [
       {
-        url: "/images/massage2.jpg",
+        url: "https://amazingspa.site/images/massage2.jpg",
         width: 1200,
         height: 800,
-        alt: "Amazing Wellness Spa Treatment",
+        alt: "Amazing Spa Treatment Room Lajpat Nagar",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amazing Wellness Spa | Luxury Spa in Lajpat Nagar 2, New Delhi",
+    title: "Amazing Spa in Lajpat Nagar, Delhi | Massage & Wellness",
     description:
-      "Premium massage and wellness spa in Lajpat Nagar 2. Open 24 hours. Contact Sunny on WhatsApp or call +91 8797191340.",
-    images: ["/images/massage2.jpg"],
+      "Discover Amazing Spa in Lajpat Nagar, New Delhi, for relaxing massage and wellness services. Explore available treatments, view service details, and contact us to book your visit.",
+    images: ["https://amazingspa.site/images/massage2.jpg"],
   },
   icons: {
     icon: "/images/logo.png",
@@ -179,25 +197,136 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "HealthAndBeautyBusiness",
-  name: "Amazing Wellness Spa",
-  image: "/images/logo.png",
-  telephone: "+91 8797191340",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "72/1, 2nd Floor, Near A Block, Muthoot Finance, Near Samara Honda, Lajpat Nagar 2",
-    addressLocality: "New Delhi",
-    addressRegion: "Delhi",
-    postalCode: "110024",
-    addressCountry: "IN",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 28.5694,
-    longitude: 77.2435,
-  },
-  openingHours: "Mo-Su 00:00-23:59",
-  url: "https://wellnesswavespa.com",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://amazingspa.site/#website",
+      "url": "https://amazingspa.site",
+      "name": "Amazing Spa",
+      "description": "Premium massage and wellness spa in Lajpat Nagar, New Delhi.",
+      "publisher": {
+        "@id": "https://amazingspa.site/#business",
+      },
+      "inLanguage": "en-IN",
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://amazingspa.site/#webpage",
+      "url": "https://amazingspa.site",
+      "name": "Amazing Spa in Lajpat Nagar, Delhi | Massage & Wellness",
+      "isPartOf": {
+        "@id": "https://amazingspa.site/#website",
+      },
+      "about": {
+        "@id": "https://amazingspa.site/#business",
+      },
+      "description":
+        "Discover Amazing Spa in Lajpat Nagar, New Delhi, for relaxing massage and wellness services. Explore available treatments, view service details, and contact us to book your visit.",
+      "inLanguage": "en-IN",
+    },
+    {
+      "@type": ["HealthAndBeautyBusiness", "DaySpa"],
+      "@id": "https://amazingspa.site/#business",
+      "name": "Amazing Spa",
+      "url": "https://amazingspa.site",
+      "logo": "https://amazingspa.site/images/logo.png",
+      "image": "https://amazingspa.site/images/massage2.jpg",
+      "telephone": "+91 7982909680",
+      "email": "amazingspainfo9@gmail.com",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "34, Block A Lajpat Nagar 1 Rd, Block A, Lajpat Nagar I, Lajpat Nagar",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110024",
+        "addressCountry": "IN",
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.5727999,
+        "longitude": 77.2408173,
+      },
+      "hasMap":
+        "https://www.google.com/maps/place/Amazing+Spa+%7C+Massage+spa+in+lajpat+nagar/@28.5727387,77.2407985,21z/data=!4m6!3m5!1s0x390ce383d8c8f46f:0xc13ee65b5010ca0c!8m2!3d28.5727999!4d77.2408173!16s%2Fg%2F11zy5mj199?entry=ttu",
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Lajpat Nagar",
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "South Delhi",
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "New Delhi",
+        },
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+          ],
+          "opens": "00:00",
+          "closes": "23:59",
+        },
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Spa & Massage Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Turkish Massage",
+              "description": "The hammam tradition with steam, deep tissue work, gentle stretching and aromatic oil.",
+            },
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full Body Massage",
+              "description": "Full body therapy designed to relieve tension, release muscle knots, and restore vitality.",
+            },
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Deep Tissue Massage",
+              "description": "Targeted deep pressure technique focusing on deeper muscle layers to ease stiffness.",
+            },
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Aroma Therapy",
+              "description": "Essential oils chosen for relaxation, stress relief, and physical and mental wellness.",
+            },
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Thai Balm Massage",
+              "description": "Authentic massage treatment using cooling herbal Thai balm for joint and muscle relief.",
+            },
+          },
+        ],
+      },
+    },
+  ],
 };
 
 export default function RootLayout({

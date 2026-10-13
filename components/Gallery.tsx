@@ -16,56 +16,56 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
   {
     url: "/images/gallery/amazing-wellness-spa-reception-counter-delhi.webp",
     title: "Sanctuary Reception Desk",
-    alt: "Luxury Reception Counter with Illuminated Blue Lattice and Floral Decor at Amazing Wellness Spa Lajpat Nagar 2 Delhi",
+    alt: "Luxury Reception Counter with Illuminated Blue Lattice and Floral Decor at Amazing Spa Lajpat Nagar Delhi",
     aspect: "aspect-[1091/1333]",
     ratio: "1091 / 1333",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-vip-couple-massage-suite.webp",
     title: "VIP Couple Therapy Suite",
-    alt: "Luxury VIP Couple Massage Suite with Ambient Wall Niches and Royal Armchair at Amazing Wellness Spa New Delhi",
+    alt: "Luxury VIP Couple Massage Suite with Ambient Wall Niches and Royal Armchair at Amazing Spa New Delhi",
     aspect: "aspect-[1280/960]",
     ratio: "1280 / 960",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-jacuzzi-bath-rose-petals.webp",
     title: "Rose Petal Jacuzzi Hydrotherapy",
-    alt: "Hydrotherapy Jacuzzi Bathtub with Fresh Rose Petals and Floral Arrangements at Amazing Wellness Spa Delhi",
+    alt: "Hydrotherapy Jacuzzi Bathtub with Fresh Rose Petals and Floral Arrangements at Amazing Spa Delhi",
     aspect: "aspect-[1272/838]",
     ratio: "1272 / 838",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-circular-bed-therapy-room.webp",
     title: "Executive Circular Bed Suite",
-    alt: "Executive Circular Bed Therapy Room with Ambient Lighting and Glass Shower at Amazing Wellness Spa Lajpat Nagar",
+    alt: "Executive Circular Bed Therapy Room with Ambient Lighting and Glass Shower at Amazing Spa Lajpat Nagar",
     aspect: "aspect-[960/1280]",
     ratio: "960 / 1280",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-luxury-double-treatment-room.webp",
     title: "Ambient Double Therapy Chamber",
-    alt: "Private Therapy Room with Large Bed, Carved Ceiling and Blue Mood Lighting at Amazing Wellness Spa",
+    alt: "Private Therapy Room with Large Bed, Carved Ceiling and Blue Mood Lighting at Amazing Spa",
     aspect: "aspect-[960/1280]",
     ratio: "960 / 1280",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-full-body-massage-therapy.webp",
     title: "Full Body Massage Session",
-    alt: "Professional Therapist Administering Full Body Oil Massage Therapy at Amazing Wellness Spa New Delhi",
+    alt: "Professional Therapist Administering Full Body Oil Massage Therapy at Amazing Spa New Delhi",
     aspect: "aspect-[704/1472]",
     ratio: "704 / 1472",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-thai-oil-massage-treatment.webp",
     title: "Traditional Thai Oil Massage",
-    alt: "Certified Therapist Performing Soothing Leg Massage with Herbal Essential Oils at Amazing Wellness Spa",
+    alt: "Certified Therapist Performing Soothing Leg Massage with Herbal Essential Oils at Amazing Spa",
     aspect: "aspect-[1356/1064]",
     ratio: "1356 / 1064",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-couple-jacuzzi-massage-chamber.webp",
     title: "Couple Jacuzzi & Therapy Chamber",
-    alt: "Exclusive Couple Massage Chamber with Hydrotherapy Jacuzzi and Buddha Wall Art at Amazing Wellness Spa",
+    alt: "Exclusive Couple Massage Chamber with Hydrotherapy Jacuzzi and Buddha Wall Art at Amazing Spa",
     aspect: "aspect-[600/800]",
     ratio: "600 / 800",
   },
@@ -79,14 +79,14 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
   {
     url: "/images/gallery/amazing-wellness-spa-luxury-round-bed-suite.webp",
     title: "Private Round Bed Wellness Suite",
-    alt: "Round Bed Spa Suite with Rose Petal Decor and Glass Enclosed Rain Shower at Amazing Wellness Spa",
+    alt: "Round Bed Spa Suite with Rose Petal Decor and Glass Enclosed Rain Shower at Amazing Spa",
     aspect: "aspect-[960/1280]",
     ratio: "960 / 1280",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-relaxation-waiting-lounge.webp",
     title: "Relaxation Waiting Lounge",
-    alt: "Comfortable Waiting Lounge with Leather Sofas, Marble Table and Buddha Wall Lamp at Amazing Wellness Spa",
+    alt: "Comfortable Waiting Lounge with Leather Sofas, Marble Table and Buddha Wall Lamp at Amazing Spa",
     aspect: "aspect-[1218/1599]",
     ratio: "1218 / 1599",
   },
@@ -100,14 +100,14 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
   {
     url: "/images/gallery/amazing-wellness-spa-lounge-room1-door.webp",
     title: "Private Suite Lounge Area",
-    alt: "Spa Waiting Area with Leather Seating, Warm Sconces and Treatment Suite 1 at Amazing Wellness Spa",
+    alt: "Spa Waiting Area with Leather Seating, Warm Sconces and Treatment Suite 1 at Amazing Spa",
     aspect: "aspect-[1205/1600]",
     ratio: "1205 / 1600",
   },
   {
     url: "/images/gallery/amazing-wellness-spa-illuminated-corridor-hallway.webp",
     title: "Ambient Spa Hallway Corridor",
-    alt: "Illuminated Spa Corridor Hallway Leading to Private Therapy Suites at Amazing Wellness Spa New Delhi",
+    alt: "Illuminated Spa Corridor Hallway Leading to Private Therapy Suites at Amazing Spa New Delhi",
     aspect: "aspect-[1208/1600]",
     ratio: "1208 / 1600",
   },
@@ -135,7 +135,7 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
   {
     url: "/images/gallery/amazing-wellness-spa-ayurvedic-therapy-room.webp",
     title: "Serene Treatment Room",
-    alt: "Serene Therapy Room with Massage Table, Towel Art and Buddha Art at Amazing Wellness Spa Lajpat Nagar",
+    alt: "Serene Therapy Room with Massage Table, Towel Art and Buddha Art at Amazing Spa Lajpat Nagar",
     aspect: "aspect-[960/1280]",
     ratio: "960 / 1280",
   },
@@ -156,7 +156,7 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
   {
     url: "/images/gallery/amazing-wellness-spa-neck-shoulder-stress-relief.webp",
     title: "Relaxing Neck & Shoulder Massage",
-    alt: "Relaxing Neck and Shoulder Stress Relief Massage by Expert Therapist at Amazing Wellness Spa",
+    alt: "Relaxing Neck and Shoulder Stress Relief Massage by Expert Therapist at Amazing Spa",
     aspect: "aspect-[524/384]",
     ratio: "524 / 384",
   },
@@ -212,7 +212,7 @@ export default function Gallery() {
             Spa <span className="italic" style={{ color: "oklch(0.78 0.11 78)" }}>Gallery</span>
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-[#16211c]/70 max-w-xl mx-auto">
-            Explore our state-of-the-art wellness suites, Jacuzzi chambers, and private therapy rooms in Lajpat Nagar 2, New Delhi.
+            Explore our state-of-the-art wellness suites, Jacuzzi chambers, and private therapy rooms in Lajpat Nagar, New Delhi.
           </p>
         </div>
 

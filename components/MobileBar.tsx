@@ -3,7 +3,7 @@
 import { Phone, CalendarCheck } from "lucide-react";
 import { scrollToSection } from "@/lib/utils";
 
-const PHONE = "+918797191340";
+const PHONE = "+917982909680";
 
 export default function MobileBar() {
   return (
